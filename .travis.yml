@@ -1,8 +1,14 @@
 language: node_js
 
-node_js: 'stable' # or another
+language: node_js
 
-cache: npm
+node_js: 
+  - stable
+  
+  
+install:
+  - npm install
 
 script:
   - npm run test
+  - npm run coveralls
