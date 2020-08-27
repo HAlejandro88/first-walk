@@ -1,7 +1,5 @@
 language: node_js
 
-language: node_js
-
 node_js: 
   - stable
   
@@ -11,4 +9,3 @@ install:
 
 script:
   - npm run test
-  - npm run coveralls
